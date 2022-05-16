@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<style type="text/css">
+			.container-img {
+			  position: relative;
+			  width: 300px;
+			}
+
+			.image {
+			  display: block;
+			  width: 500px;
+			  height: 500px;
+			  transition:3s;
+			}
+
+			.overlay {
+			  position:absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  height: 100%;
+			  opacity:0;
+			  transition: 1s;
+			  background-color:rgba(0,0,0,0.7);
+			}
+
+			.container-img:hover .overlay {
+			  opacity:1;
+			}
+			.container-img:hover .image {
+			  
+			
+                transform:translate(300px,400px);
+				 
+		
+			}
+			.text {
+			  color: white;
+			  font-size: 20px;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  -webkit-transform: translate(-50%, -50%);
+			  -ms-transform: translate(-50%, -50%); 
+			  -o-transform: translate(-50%, -50%);
+			  -moz-transform: translate(-50%, -50%);
+			  transform: translate(-50%, -50%);
+			  
+			  text-align: center;
+			  
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Image Overlay Effect</h2>
+		<div class="container-img">
+			<img src="https://img.freepik.com/free-vector/rap-neon-word-microphone-flame-outline_1262-11901.jpg?w=2000" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" alt="Rap battle Vectors &amp; Illustrations for Free Download | Freepik" data-noaft="1" style="width: 381px; height: 381px; margin: 0px;">
+			<div class="overlay">
+				<div class="text"> RHYTHM AND POETRY </div>
+		    </div>
+		</div>
+	</body>
+</html>
